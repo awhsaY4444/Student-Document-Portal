@@ -62,7 +62,17 @@ The application uses MySQL as the primary relational database.
 
 ### MySQL Workbench Preview
 
+#### Complete Schema Overview
+
 ![MySQL Schema](./assets/mysql-schema-preview.png)
+
+#### Users and Applications Tables
+
+![MySQL Users and Applications Tables](./assets/mysql-schema-preview1.png)
+
+#### Payments and Documents Tables
+
+![MySQL Payments and Documents Tables](./assets/mysql-schema-preview2.png)
 
 ### Database Features
 
