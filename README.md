@@ -47,6 +47,33 @@ npm run seed:mysql
 npm run seed:mysql
 ```
 
+## MySQL Database Schema
+
+The application uses MySQL as the primary relational database.
+
+### Database: `nit_document_portal`
+
+#### Main Tables
+
+- users
+- applications
+- payments
+- documents
+
+### MySQL Workbench Preview
+
+![MySQL Schema](./assets/mysql-schema-preview.png)
+
+### Database Features
+
+- Relational schema design
+- Foreign key relationships
+- JWT-based authentication support
+- Role-based access structure
+- Payment and document tracking
+- Indexed application queries
+- Local document storage integration
+
 ## Razorpay Test Mode
 
 Add test keys to `.env`:
