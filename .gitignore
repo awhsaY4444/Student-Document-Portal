@@ -1,0 +1,8 @@
+node_modules
+dist
+.env
+.git
+server/data
+server/uploads
+npm-debug.log*
+razorpay_test_api_keys_*.csv

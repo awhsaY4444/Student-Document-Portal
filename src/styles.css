@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  background: #eef2f7;
+  color: #172033;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+.erp-shell {
+  min-height: 100vh;
+  background:
+    linear-gradient(180deg, rgba(23, 51, 92, 0.04), transparent 260px),
+    #eef2f7;
+}
+
+.erp-card {
+  border: 1px solid #d8dee8;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(15, 39, 73, 0.06);
+}
+
+.form-input {
+  width: 100%;
+  border: 1px solid #cbd5e1;
+  background: #fff;
+  padding: 0.55rem 0.7rem;
+  font-size: 0.875rem;
+  outline: none;
+}
+
+.form-input:focus {
+  border-color: #17335c;
+  box-shadow: 0 0 0 2px rgba(23, 51, 92, 0.12);
+}
+
+.table-th {
+  background: #f1f5f9;
+  color: #334155;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-align: left;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.table-td {
+  border-top: 1px solid #e2e8f0;
+  color: #253044;
+  font-size: 0.82rem;
+  vertical-align: middle;
+}
+
+.btn-primary {
+  background: #17335c;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: #0f2749;
+}
+
+.btn-secondary {
+  border: 1px solid #cbd5e1;
+  background: #fff;
+  color: #1e293b;
+}
+
+.btn-secondary:hover {
+  background: #f8fafc;
+}
+
+.btn-danger {
+  background: #b94a48;
+  color: #fff;
+}
+
+.btn-success {
+  background: #4b8063;
+  color: #fff;
+}
