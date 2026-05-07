@@ -1,4 +1,4 @@
-# NIT Student Document Management Portal
+# Student Document Management Portal
 
 Internal college ERP-style MVP for student document requests. It includes role-based login, Razorpay test payment flow, MySQL-backed application records, admin approval/upload/generation of PDFs, student downloads, and dean analytics.
 
